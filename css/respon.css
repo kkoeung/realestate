@@ -1,0 +1,248 @@
+@media (min-width: 320px) and (max-width: 768px){
+  .header{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color:rgba(255, 255, 255, 0.463)!important;
+  }
+  .header .header-menu{
+    display: none;
+  }
+  .header .top-logo{
+    display: block;
+  }
+  .header .head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .top{
+    display: none;
+  }
+  .header .close-button{
+    display: block;
+  }
+  .container{
+    padding: 10px;
+  }
+  /* relate */
+
+  .relate .swiper{
+    height: 300px;
+  }
+  /* .relate,
+  .relate .swiper,
+  .relate .stuning{
+    position: none;
+  } */
+  .relate .stuning{
+    margin-top: 300px;
+  }
+  .stuning .stuning-content{
+    width: 100%;
+  }
+  .stuning .stuning-items{
+    width: 100%;
+  }
+  /* .stuning-2{
+    display: block!important;
+  } */
+  .stuning-2 .stuning-content{
+    width: 100%;
+  }
+  .stuning-2 .stuning-items{
+    width: 100%;
+  }
+  /* sale */
+  .saled{
+    margin-top: 900px !important;
+  }
+  .saled .sale .sale-content{
+    width: 100%;
+  }
+  .saled .sale-image{
+    display: flex;
+    flex-direction: column;
+  }
+  .saled .sale-image .sale-image-2{
+    width: 100%;
+  }
+  /* rental */
+  .rental .rental-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .rental .rental-items{
+    width: 100%;
+    margin: 0;
+  }
+  .rental .rental-img{
+    width: 100%;
+    margin: 0;
+  }
+  .rental .rental-items-2{
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+  }
+  /* realtor */
+  .realtor .realtor-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .realtor .realtor-items-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* client */
+  .client .client-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .client .client-items-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* .contact */
+  .contact .contact-item{
+    width: 100%;
+  }
+  .contact .contact-item-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .contact-map{
+    width: 100%;
+    display: flex;
+    justify-content: none;
+    margin: 0;
+  }
+  .contact .contact-map-2{
+    width: 100%;
+    margin: 0;
+  }
+  /* agent */
+  .contact .agent{
+    margin: 0;
+    margin-top: 20px;
+  }
+  .contact .agent .agent-content{
+    width: 100%;
+  }
+  /* ========================== */
+  /* agent */
+  .agent .agent-items{
+    width: 100%;
+  }
+  .agent .agent-items-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+  }
+  .agent .agent-items-2{
+    width: 100%;
+  }
+  .agent .agent-item{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .agent .agent-text{
+    text-align: center;
+  }
+  /* ========================== */
+  .blog .blog-items{
+    width: 100%;
+  }
+  .blog .blog-items-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog .blog-item{
+    width: 100%;
+    margin: 15px 0;
+  }
+}
+
+  /* loader */
+  .loader {
+    position: absolute;
+    top: calc(50% - 32px);
+    left: calc(50% - 32px);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    perspective: 800px;
+  }
+  
+  .inner {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .inner.one {
+    left: 0%;
+    top: 0%;
+    animation: rotate-one 1s linear infinite;
+    border-bottom: 3px solid red;
+  }
+  
+  .inner.two {
+    right: 0%;
+    top: 0%;
+    animation: rotate-two 1s linear infinite;
+    border-right: 3px solid red;
+  }
+  
+  .inner.three {
+    right: 0%;
+    bottom: 0%;
+    animation: rotate-three 1s linear infinite;
+    border-top: 3px solid red;
+  }
+  
+  @keyframes rotate-one {
+    0% {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+  
+    100% {
+      transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+  }
+  
+  @keyframes rotate-two {
+    0% {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+  
+    100% {
+      transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+  }
+  
+  @keyframes rotate-three {
+    0% {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+  
+    100% {
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+  }
